@@ -1,26 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {girls} from './girls.js';
+import CardList from './CardList.js';
+import SearchBox from './SearchBox.js'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+    constructor(){
+        super()
+        this.state = {
+            girls:girls,
+            searchfield:"",
+        }
+    }
+
+    onSearchChange = (event) => {
+        this.setState({searchfield:event.target.value})
+    }
+
+    render(){
+        const filteredGirls = this.state.girls.filter(girl => {
+            return girl.name.toLowerCase().includes(this.state.searchfield.toLowerCase()) || girl.id.includes(this.state.searchfield);
+        })
+        return (
+            <div className="tc">
+                <h1>Which girlfriend do you want ?</h1>
+                <SearchBox searchChange={this.onSearchChange}/>
+                <CardList girls={filteredGirls}/>
+            </div>
+            
+        )
+    }
 }
 
-export default App;
+export default App
