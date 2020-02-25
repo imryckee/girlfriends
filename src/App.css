@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Samsung Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Samsung Sans Regular'), url('SamsungSans-Regular.woff') format('woff');
+    }
+
+h1{
+    font-family: 'Samsung Sans Regular';
+    font-weight: 200;
+    color:#083f21;
+}
