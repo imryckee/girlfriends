@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/girlfriends/static/css/main.8a81980f.chunk.css",
+    "main.js": "/girlfriends/static/js/main.fc5f2724.chunk.js",
+    "main.js.map": "/girlfriends/static/js/main.fc5f2724.chunk.js.map",
+    "runtime-main.js": "/girlfriends/static/js/runtime-main.9e1e80f9.js",
+    "runtime-main.js.map": "/girlfriends/static/js/runtime-main.9e1e80f9.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/girlfriends/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.feb90a1b.chunk.js": "/girlfriends/static/js/2.feb90a1b.chunk.js",
+    "static/js/2.feb90a1b.chunk.js.map": "/girlfriends/static/js/2.feb90a1b.chunk.js.map",
+    "index.html": "/girlfriends/index.html",
+    "precache-manifest.cf01349ae7c28a3fcd600c9cede09a0e.js": "/girlfriends/precache-manifest.cf01349ae7c28a3fcd600c9cede09a0e.js",
+    "service-worker.js": "/girlfriends/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/girlfriends/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.8a81980f.chunk.css.map": "/girlfriends/static/css/main.8a81980f.chunk.css.map",
+    "static/js/2.feb90a1b.chunk.js.LICENSE.txt": "/girlfriends/static/js/2.feb90a1b.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/girlfriends/static/media/SamsungSans-Regular.09f72882.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e1e80f9.js",
+    "static/css/2.eb45ad44.chunk.css",
+    "static/js/2.feb90a1b.chunk.js",
+    "static/css/main.8a81980f.chunk.css",
+    "static/js/main.fc5f2724.chunk.js"
+  ]
+}
