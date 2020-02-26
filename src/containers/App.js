@@ -1,8 +1,8 @@
 import React from 'react';
-import {girls} from './girls.js';
-import CardList from './CardList.js';
-import SearchBox from './SearchBox.js';
-import Scroll from './Scroll.js';
+import {girls} from '../girls.js';
+import CardList from '../components/CardList.js';
+import SearchBox from '../components/SearchBox.js';
+// import Scroll from '../components/Scroll.js';
 import "./App.css";
 
 class App extends React.Component {
@@ -36,9 +36,10 @@ class App extends React.Component {
                 <div className="tc">
                     <h1 className="f1">Which girlfriend do you want?</h1>
                     <SearchBox searchChange={this.onSearchChange}/>
-                    <Scroll>
+                    {/* <Scroll>
                         <CardList girls={filteredGirls}/>
-                    </Scroll>
+                    </Scroll> */}
+                    <CardList girls={filteredGirls}/>
                 </div>
             )
         }
