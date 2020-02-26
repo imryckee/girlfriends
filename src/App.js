@@ -1,13 +1,14 @@
 import React from 'react';
 import {girls} from './girls.js';
 import CardList from './CardList.js';
-import SearchBox from './SearchBox.js'
-import "./App.css"
+import SearchBox from './SearchBox.js';
+import Scroll from './Scroll.js';
+import "./App.css";
 
 class App extends React.Component {
     constructor(){
         super()
-        this.state = {
+        this.state = { 
             girls:[],
             searchfield:"",
         }
@@ -19,7 +20,7 @@ class App extends React.Component {
         //     .then(users => this.setState({girls:users}));
         this.setState({girls:girls})
     }
-    
+
     onSearchChange = (event) => {
         this.setState({searchfield:event.target.value})
     }
@@ -35,7 +36,9 @@ class App extends React.Component {
                 <div className="tc">
                     <h1 className="f1">Which girlfriend do you want?</h1>
                     <SearchBox searchChange={this.onSearchChange}/>
-                    <CardList girls={filteredGirls}/>
+                    <Scroll>
+                        <CardList girls={filteredGirls}/>
+                    </Scroll>
                 </div>
             )
         }
