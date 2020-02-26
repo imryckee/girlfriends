@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "69f1da6f0f49c25214cbbbf5f2e88e17",
+    "revision": "6d64441f9f6677db03584aab94f25e25",
     "url": "/girlfriends/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/girlfriends/static/css/2.eb45ad44.chunk.css"
   },
   {
-    "revision": "dbd6767243a292cf7c0a",
+    "revision": "a465e2002f9dc8cd5121",
     "url": "/girlfriends/static/css/main.8a81980f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/girlfriends/static/js/2.feb90a1b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dbd6767243a292cf7c0a",
-    "url": "/girlfriends/static/js/main.cad9ef7e.chunk.js"
+    "revision": "a465e2002f9dc8cd5121",
+    "url": "/girlfriends/static/js/main.1f3bd1a0.chunk.js"
   },
   {
     "revision": "71fc6980352460b6f1fa",
@@ -44,20 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/girlfriends/static/media/0601.350082d1.jpg"
   },
   {
-    "revision": "58e24cd2ccf7e648c5b414ad704783e0",
-    "url": "/girlfriends/static/media/1201.58e24cd2.jpg"
+    "revision": "b760f691cd0296f216fe657c3b623d0e",
+    "url": "/girlfriends/static/media/1201.b760f691.jpg"
   },
   {
-    "revision": "5727a094de0f424daba3104353de4f94",
-    "url": "/girlfriends/static/media/1202.5727a094.jpeg"
+    "revision": "ba94ee76536cd6d9ba7c200b7064dc11",
+    "url": "/girlfriends/static/media/1202.ba94ee76.jpeg"
   },
   {
     "revision": "1f8dc44cc2e9ff7fc0ec513017b938e7",
     "url": "/girlfriends/static/media/1801.1f8dc44c.jpg"
   },
   {
-    "revision": "2cb998a5dfb082afb2c8329968ae9b58",
-    "url": "/girlfriends/static/media/2001.2cb998a5.jpg"
+    "revision": "24f8d8f8a01ef7d76e03ed3b2e5c8560",
+    "url": "/girlfriends/static/media/2001.24f8d8f8.jpg"
   },
   {
     "revision": "c72d86cd5ac0f048132e878627188f63",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "708b135a486ae02d7eba22fb9c3b0298",
     "url": "/girlfriends/static/media/2501.708b135a.jpg"
+  },
+  {
+    "revision": "88b328e982f9af78348376b88701c6f6",
+    "url": "/girlfriends/static/media/2601.88b328e9.png"
   },
   {
     "revision": "09f728822adc606ba3e06a3c5c0a3957",
