@@ -3,7 +3,9 @@ import {girls} from '../girls.js';
 import CardList from '../components/CardList.js';
 import SearchBox from '../components/SearchBox.js';
 // import Scroll from '../components/Scroll.js';
+import ErrorBoundary from '../components/ErrorBoundary.js'
 import "./App.css";
+
 
 class App extends React.Component {
     constructor(){
@@ -39,7 +41,9 @@ class App extends React.Component {
                     {/* <Scroll>
                         <CardList girls={filteredGirls}/>
                     </Scroll> */}
-                    <CardList girls={filteredGirls}/>
+                    <ErrorBoundary>
+                        <CardList girls={filteredGirls}/>
+                    </ErrorBoundary>
                 </div>
             )
         }
