@@ -1,5 +1,5 @@
 import React from 'react';
-import {girls} from '../girls.js';
+import {girls} from '../girls/girls.js';
 import CardList from '../components/CardList.js';
 import SearchBox from '../components/SearchBox.js';
 // import Scroll from '../components/Scroll.js';
